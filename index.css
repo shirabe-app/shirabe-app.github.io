@@ -99,10 +99,13 @@ img.middle {
   display: flex;
 }
 
+p { 
+  line-height: 1.25rem;
+}
+
 .feature {
   margin: 5px;
   width: 100%;
-  line-height: 1.25rem;
 }
 
 .feature > h3 {
