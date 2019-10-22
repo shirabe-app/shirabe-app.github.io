@@ -11,13 +11,18 @@ body {
   font-weight: normal;
 }
 
-@media (min-width: 786px) {
+@media (min-width: 768px) {
   #m-img-2 {
     display: none;
   }
 
+  .outer {
+    display: flex;
+    justify-content: center;
+  }
+
   #main {
-    margin: 0 250px;
+    max-width: 768px;
   }
 
   #main-area > h1 {
@@ -134,7 +139,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   html, body, header {
     width: 100% !important;
   }
